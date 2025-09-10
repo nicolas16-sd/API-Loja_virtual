@@ -41,15 +41,21 @@ const update = (id, productAlter) => {
             product[i].ativo = productAlter.ativo   
         }
     }
-        
 }
 
-
+const deleteProduct = (id) => {
+    for (let i = 0; i < product.length; i++) {
+        if(product[i].id === id) {
+            product.splice(i, 1)
+        }
+    }
+}
 
 module.exports = {
     findAll,
     findById,
     findByName,
     create,
-    update
+    update,
+    deleteProduct
 }

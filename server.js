@@ -6,6 +6,7 @@
  *********************************************************************************************/
 const express = require('express')
 const productRoutes = require('./src/routes/productRoutes')
+const clientRoutes = require('./src/routes/clientRoutes')
 
 const app = express()
 app.use(express.json())
@@ -20,3 +21,4 @@ app.listen(porta, () => {
 })
 
 app.use('/api/produtos', productRoutes);
+app.use('/api/clientes', clientRoutes)

@@ -8,5 +8,6 @@ router.get('/:id', productController.getProductById)
 router.get('/pesquisar/:nome', productController.getProductByName)
 router.post('/', productController.createProduct)
 router.patch('/:id', productController.updateProducts)
+router.delete('/:id', productController.deletarProduct)
 
 module.exports = router

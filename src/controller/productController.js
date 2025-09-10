@@ -25,7 +25,6 @@ const getProductByName = (req, res) => {
     if(product){
         res.status(200).json(product)
     } else {
-       
         res.status(404).json({mensagem: "Produto nãoooo encontrado no banco de dados!"})
     }
 }
@@ -49,10 +48,22 @@ const updateProducts = (req, res) => {
     res.status(200).json(id);
 }
 
+const deletarProduct = (req, res) => {
+    let id = parseInt(req.params.id)
+
+    if(id) {
+        productModel.deleteProduct(id)
+        res.status(200).json(id)
+    } else {
+        res.status(404).json({mensagem: "Produto não encontrado"})
+    }
+}
+
 module.exports = {
     getAllProducts,
     getProductById,
     getProductByName,
     createProduct,
-    updateProducts
+    updateProducts,
+    deletarProduct
 }
