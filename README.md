@@ -7,7 +7,6 @@ Visualização da resposta JSON da API no Postman
 ![API rodando no Postman](./img/Captura%20de%20tela%202025-09-16%20081723.png)
 
 ## Funcionalidades 
-<<<<<<< HEAD
 
 ### Gerenciamento de Produtos
 - ✅ Listar todos os produtos.
@@ -24,7 +23,7 @@ Visualização da resposta JSON da API no Postman
 - ➕ Cadastrar novos clientes.
 - ✏️ Alterar os dados de um cliente existente.
 - ❌ Deletar um cliente do Banco de dados.
-=======
+
 # Gerenciamento de Produtos
 - Listar todos os produtos.
 - Obter um produto por ID.
@@ -40,7 +39,6 @@ Visualização da resposta JSON da API no Postman
 - Criar novos clientes.
 - Alterar os dados de um cliente existente.
 - Deletar um cliente do cadastro.
->>>>>>> 164e4a7f25f55f4c8cf1fcbf1922f0b72a5d292e
 
 ## Tecnologias
 - Node.JS
@@ -50,9 +48,4 @@ Visualização da resposta JSON da API no Postman
 
 ## Autor
 
-<<<<<<< HEAD
 Nicolas dos Santos Durão 
-=======
-Nicolas dos Santos Durão
-
->>>>>>> 164e4a7f25f55f4c8cf1fcbf1922f0b72a5d292e
