@@ -24,22 +24,6 @@ Visualização da resposta JSON da API no Postman
 - ✏️ Alterar os dados de um cliente existente.
 - ❌ Deletar um cliente do Banco de dados.
 
-# Gerenciamento de Produtos
-- Listar todos os produtos.
-- Obter um produto por ID.
-- Buscar um produto por nome.
-- Criar novos produtos.
-- Alterar os dados de um produto existente.
-- Deletar um produto do catálogo.
-
-# Gerenciamento de Clientes
-- Listar todos os clientes.
-- Obter um cliente por ID
-- Buscar um cliente por nome.
-- Criar novos clientes.
-- Alterar os dados de um cliente existente.
-- Deletar um cliente do cadastro.
-
 ## Tecnologias
 - Node.JS
 - Express
