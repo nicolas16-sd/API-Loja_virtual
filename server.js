@@ -13,7 +13,7 @@ app.use(express.json())
 const porta = 8000
 
 app.get('/', (req, res) => {
-    res.send("API para Loja Virutal está funcionando!")
+    res.send("API para Loja Virtual está funcionando!")
 })
 
 app.listen(porta, () => {
