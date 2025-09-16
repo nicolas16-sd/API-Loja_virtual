@@ -5,7 +5,7 @@ Uma API criada para gerenciar os dados de uma loja virtual. Criado no Senai Jand
 ![API rodando no Postman](./img/Captura%20de%20tela%202025-09-09%20085615.png)
 
 ## Funcionalidades 
-Gerenciamento de Produtos
+# Gerenciamento de Produtos
 - Listar todos os produtos.
 - Obter um produto por ID.
 - Buscar um produto por nome.
@@ -13,7 +13,7 @@ Gerenciamento de Produtos
 - Alterar os dados de um produto existente.
 - Deletar um produto do catálogo.
 
-Gerenciamento de Clientes
+# Gerenciamento de Clientes
 - Listar todos os clientes.
 - Obter um cliente por ID
 - Buscar um cliente por nome.
@@ -28,3 +28,4 @@ Gerenciamento de Clientes
 ## Autor
 
 Nicolas dos Santos Durão
+
